@@ -1,0 +1,28 @@
+.container__form{
+width: 500px;
+margin: auto;
+margin-top: 100px;
+background-color: rgb(241, 197, 116);
+padding: 50px;
+border-radius: 20px;
+font-size: 20px;
+box-shadow:8px 10px 8px rgb(241, 153, 75);
+}
+
+.inp__form , select {
+    width: 97%;
+    padding: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(234, 153, 22) ;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ .inp__form:hover {
+    background-color:rgb(233, 176, 71) ;
+  }
+
+  .inp__form:active{
+    transform: scale(1.1);
+  }

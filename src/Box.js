@@ -1,4 +1,4 @@
-import NoteList from "./Notes/NoteList";
+import Note from "./Notes/Note";
 
 export default function Box(){
   return (
@@ -7,7 +7,7 @@ export default function Box(){
         لیست مخاطب
       </h2>
 
-      <NoteList />
+      <Note/>
     </div>
   );
 }
