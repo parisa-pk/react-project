@@ -1,4 +1,4 @@
-
+import"./note.css"
 
 export default function PasSave({name , lastName , tel , email , gender , address}){
     return(
@@ -6,13 +6,14 @@ export default function PasSave({name , lastName , tel , email , gender , addres
         
 <div className="note">
       <h3>
-        نام:{name="علی"} {lastName= "منتظری"}
+        
+         {name="علی"} {lastName= "منتظری"}
       </h3>
       <p>
-      تلفن:{tel="02177524548"}
+      تلفن:<a href="tel:02177524548">{tel="02177524548"}</a>
       </p>
       <p>
-      ایمیل:{email="alimontazeri@gmail.com"}
+      ایمیل:<a href="mailto:alimontazeri@gmail.com">{email="alimontazeri@gmail.com"}</a>
       </p>  
       <p>
       جنسیت:{gender="مرد"}
@@ -26,13 +27,13 @@ export default function PasSave({name , lastName , tel , email , gender , addres
  
 <div className="note">
       <h3>
-        نام:{name ="نیکا"} {lastName="علیشاهی"}
+        {name ="نیکا"} {lastName="علیشاهی"}
       </h3>
       <p>
-      تلفن:{tel="09125754869"}
+      تلفن:<a href="tel:">{tel="09125754869"}</a>
       </p>
       <p>
-      ایمیل:{email="nikaiiiii@gmail.com"}
+      ایمیل:<a href="mailto:nikaiiiii@gmail.com">{email="nikaiiiii@gmail.com"}</a> 
       </p>  
       <p>
       جنسیت:{gender="زن"}

@@ -1,15 +1,18 @@
-import "./note.css"
+import "./note.css";
 
 
-export default function Note({name , lastName , tel , email , gender , address}){
+export default function Note({name , lastName , tel , email , gender , address  }){
+
+
+ 
+
 
 
   return (
 
-    <>
-<div>
+<div className="note">
       <h3>
-        نام:{name} {lastName}
+        {name} {lastName}
       </h3>
       <p>
       تلفن:{tel}
@@ -24,7 +27,6 @@ export default function Note({name , lastName , tel , email , gender , address})
       آدرس:{address}
       </p>
 </div>
-    </>
 
   );
 }

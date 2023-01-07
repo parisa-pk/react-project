@@ -10,7 +10,9 @@
 .search{
     padding: 15px;
     margin: 20px;
-    
     flex-grow: 10;
 
+}
+.inp__nav{
+    border-radius: 5px;
 }

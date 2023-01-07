@@ -1,1 +1,8 @@
+.note{
+    width: 90vw;
+    border: 3px solid rgb(171, 89, 22);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 
+}

@@ -1,10 +1,10 @@
 import './add.css';
 
 
-export default function Add({textBtn , className}){
+export default function Add({textBtn , onClick , className}){
     return(
         <>
-            <button type='submit' className={className}>
+            <button onClick={onClick} type='submit' className={className}>
             {textBtn}
             </button>
         </>

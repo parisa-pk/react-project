@@ -1,4 +1,4 @@
-.btn__form , .btn__add{
+.btn__add{
     font-size: 20px;
     margin: 30px;
 }
@@ -8,9 +8,17 @@
     border: 2px solid rgb(117, 62, 9);
 }
 
+.btn__form{
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 97%;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
 .btn__form:active{
 box-shadow: 0 2px 8px 0px rgb(117, 62, 9);
-transform: scale(1.1);
 }
 
 .btn__add:active{
